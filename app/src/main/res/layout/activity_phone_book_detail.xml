@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/phoneBookLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        style="@style/TitleBar"
+        android:background="#05bcc6"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+
+        <TextView
+            style="@style/TitleBarText"
+            android:text="Contact Detail"
+            />
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:visibility="gone"
+            android:onClick="onClickAbout" />
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_search"
+            android:src="@drawable/title_search"
+            android:visibility="gone"
+            android:onClick="onClickSearch" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/contactDetailImgID"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#DCDCDC"
+        android:src="@drawable/man"
+
+        />
+
+
+    <TextView
+        android:id="@+id/contactDetailNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Name will Appear here... "
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#75ffffff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="callNumber"
+            android:background="#00ffffff"
+            android:paddingLeft="10dp"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/contactDetailPhoneID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:hint="Phone No will Appear here..."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:onClick="msgNumber"
+            android:src="@drawable/email" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/callBtnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="#008080"
+            android:onClick="deleteContact" />
+        <!--   android:src="@drawable/trash"-->
+
+        <ImageButton
+            android:id="@+id/msgBtnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:background="#008080"
+            android:onClick="editContact" />
+        <!-- android:src="@drawable/writenew" -->
+    </LinearLayout>
+
+</LinearLayout>

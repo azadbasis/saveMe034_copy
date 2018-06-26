@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Local">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_prothom_alo"
+                        android:icon="@drawable/newspaper_icon"
+                        android:title="Prothom Alo" />
+                    <item
+                        android:id="@+id/nav_jugantor"
+                        android:icon="@drawable/newspaper_icon2"
+                        android:title="Jugantor" />
+                    <item
+                        android:id="@+id/nav_samakal"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="Samakal" />
+                    <item
+                        android:id="@+id/nav_bhorerkagoj"
+                        android:icon="@drawable/newspaper_icon"
+                        android:title="Bhorerkagoj"
+                        android:visible="true" />
+
+                    <item
+                        android:id="@+id/nav_amardesh"
+                        android:icon="@drawable/newspaper_icon2"
+                        android:title="Amardesh" />
+                    <item
+                        android:id="@+id/nav_daily_sanggram"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="Daily Sangram" />
+                    <item
+                        android:id="@+id/nav_bd_news24"
+                        android:icon="@drawable/newspaper_icon"
+                        android:title="BdNews24" />
+
+                    <item
+                        android:id="@+id/nav_bangla_news24"
+                        android:icon="@drawable/newspaper_icon2"
+                        android:title="BanglaNews24" />
+                    <item
+                        android:id="@+id/nav_bbc_bangla"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="BBC Bangla" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="International">
+
+            <menu>
+
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_wall_street_journal"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="The Wall Street Journal" />
+
+                    <item
+                        android:id="@+id/nav_new_york_times"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="The New York Times" />
+
+                    <item
+                        android:id="@+id/nav_the_guardian"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="The Guardian" />
+                    <item
+                        android:id="@+id/nav_bbc_news"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="BBC News" />
+
+                    <item
+                        android:id="@+id/nav_al_jazeera"
+                        android:icon="@drawable/newspaper_icon"
+                        android:title="Al Jazeera" />
+                    <item
+                        android:id="@+id/nav_washington_post"
+                        android:icon="@drawable/newspaper_icon2"
+                        android:title="Washington Post" />
+
+                    <item
+                        android:id="@+id/nav_sydney_herald"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="Sydney Herald" />
+
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Sports">
+
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_espncricinfo_live"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="Espn Cricket Scores" />
+
+                    <item
+                        android:id="@+id/nav_espncricinfo"
+                        android:icon="@drawable/newspaper_icon3"
+                        android:title="Espncricinfo" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

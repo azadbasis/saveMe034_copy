@@ -1,0 +1,91 @@
+Applications Graphics Acceleration Info:
+Uptime: 179543632 Realtime: 339489708
+
+** Graphics info for pid 5938 [com.wglxy.example.dash1] **
+
+Recent DisplayList operations
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawRect
+                  DrawDisplayList
+                    DrawBitmapRect
+                  DrawDisplayList
+                    DrawRect
+                  DrawDisplayList
+                  DrawDisplayList
+                    Save
+                    Translate
+                    ConcatMatrix
+                    DrawBitmapRect
+                    RestoreToCount
+                  DrawDisplayList
+                    Save
+                    Translate
+                    ConcatMatrix
+                    DrawBitmapRect
+                    RestoreToCount
+                DrawDisplayList
+                  DrawDisplayList
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                    DrawDisplayList
+                  DrawDisplayList
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                      DrawBitmapRect
+                    DrawDisplayList
+                    DrawDisplayList
+                DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawRect
+                Save
+                ClipRect
+                DrawText
+                DrawText
+                RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          2584096 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache           12288 /   524288
+  PathCache             2330338 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache           6845 /  1048576
+  RoundRectShapeCache    210982 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+  FontRenderer 1         262144 /   262144
+  FontRenderer 2              0 /        0
+Other:
+  FboCache                    0 /       16
+  PatchCache                 12 /      512
+Total memory usage:
+  5668837 bytes, 5.41 MB
+
+Profile data in ms:
+
+	com.wglxy.example.dash1/com.wglxy.example.dash1.HomeActivity/android.view.ViewRootImpl@42379c18
+View hierarchy:
+
+  com.wglxy.example.dash1/com.wglxy.example.dash1.HomeActivity/android.view.ViewRootImpl@42379c18
+  42 views, 1.82 kB of display lists, 21 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        42
+Total DisplayList:  1.82 kB
+

@@ -1,0 +1,33 @@
+Applications Memory Usage (kB):
+Uptime: 179552683 Realtime: 339498759
+
+** MEMINFO in pid 5938 [com.wglxy.example.dash1] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native        0        0        0     7720     6616       31
+       Dalvik     7522    10612     7308    11975    11370      605
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev    20893     7180    10384                           
+     .so mmap     1034     2188      576                           
+    .jar mmap        0        0        0                           
+    .apk mmap       30        0        0                           
+    .ttf mmap        5        0        0                           
+    .dex mmap      868        0      124                           
+   Other mmap      779      316       44                           
+      Unknown     4361      588     4356                           
+        TOTAL    35492    20884    22792    19695    17986      636
+ 
+ Objects
+               Views:      284         ViewRootImpl:        8
+         AppContexts:        9           Activities:        4
+              Assets:        3        AssetManagers:        3
+       Local Binders:       11        Proxy Binders:       26
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

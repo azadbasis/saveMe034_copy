@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Feature">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_map_direction"
+                    android:icon="@drawable/maps_directions_icon"
+                    android:title="Location Path" />
+                <item
+                    android:id="@+id/nav_map_customization"
+                    android:icon="@drawable/map_customization_icon"
+                    android:title="Find Place" />
+
+                <item
+                    android:id="@+id/nav_street_view"
+                    android:icon="@drawable/street_view"
+                    android:title="Street View" />
+                <item
+                android:id="@+id/nav_map_snapshot"
+                android:icon="@drawable/camera_icon"
+                android:title="Take Snapshot" />
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="Map Type">
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/nav_map_normal"
+                    android:icon="@drawable/map_normal_icon"
+                    android:title="Basic Map" />
+                <item
+                    android:id="@+id/nav_map_satellite"
+                    android:icon="@drawable/maps_satellite_icon"
+                    android:title="Satellite Map" />
+
+                <item
+                    android:id="@+id/nav_map_hybrid"
+                    android:icon="@drawable/maps_hybrid_icon"
+                    android:title="Hybrid Map" />
+
+                <item
+                    android:id="@+id/nav_map_terrain"
+                    android:icon="@drawable/map_terrain_icon"
+                    android:title="Terrain Map" />
+
+                <item
+                    android:id="@+id/nav_mapstyle_retro"
+                    android:icon="@drawable/map_terrain_icon"
+                    android:visible="false"
+                    android:title="Metro Map" />
+                <item
+                    android:id="@+id/nav_mapstyle_night"
+                    android:icon="@drawable/map_terrain_icon"
+                    android:visible="false"
+                    android:title="Night Map" />
+
+                <item
+                android:id="@+id/nav_mapstyle_grayscale"
+                android:icon="@drawable/map_terrain_icon"
+                    android:visible="false"
+                android:title="Grayscale Map" />
+
+                <item
+                    android:id="@+id/nav_mapstyle_transit"
+                    android:icon="@drawable/map_terrain_icon"
+                    android:visible="false"
+                    android:title="Transit Map" />
+
+
+                <item
+                    android:id="@+id/nav_map_none"
+                    android:icon="@drawable/map_none_icon"
+                    android:title="No Base Map Tiles" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

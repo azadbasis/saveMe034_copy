@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/signUpLo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <WebView
+            android:id="@+id/signUpWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/welcome_message_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:background="#036e64"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/welcome"
+            android:textColor="#ddd"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gotItButtonX"
+            android:layout_below="@+id/welcome_title">
+
+            <TextView
+                android:id="@+id/welcome_messgae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_saveMe"
+                android:textColor="#ddd"
+                android:textSize="18sp" />
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/gotItButtonX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:background="#3b978d"
+            android:onClick="dismisWelcomeMessageBox"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Got It"
+            android:textColor="#fff" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/app_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/signUpLo"
+        android:layout_toRightOf="@+id/signUpLo"
+        android:background="#E5E5E5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please wait while your data gets loaded..."
+            android:textColor="#000000"></TextView>
+
+        <ProgressBar
+            android:id="@+id/mainSpinner1"
+            style="@style/CustomProgressBar"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:max="100"
+            android:progress="25"
+            android:secondaryProgress="45"></ProgressBar>
+
+    </LinearLayout>
+    <!-- <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/imageView"
+         android:layout_centerHorizontal="true"
+         android:src="@mipmap/saveape"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+         android:scaleType="fitXY" />
+ -->
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/numberCountLayout"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <com.nanosoft.bd.saveme.viewpager.viewpager.ScrollerViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/numberCountLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.8"
+            android:background="#a3f1e1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.nanosoft.bd.saveme.viewpager.SpringIndicator xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/indicator"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="5"
+                app:siIndicatorColor="@color/colorPrimary"
+                app:siIndicatorColors="@array/indicator_colors"
+                app:siSelectedTextColor="@android:color/white"
+                app:siTextColor="@color/colorPrimaryDark"
+                app:siTextSize="24sp" />
+
+            <Button
+                android:id="@+id/gotItButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1.7"
+                android:alpha="0.9"
+                android:background="#3b978d"
+                android:onClick="dismisWelcomeMessageBox"
+                android:text="Got It"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Button"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

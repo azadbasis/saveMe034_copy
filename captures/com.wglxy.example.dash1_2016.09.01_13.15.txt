@@ -1,0 +1,52 @@
+TASK com.wglxy.example.dash1 id=110
+  ACTIVITY com.wglxy.example.dash1/.HomeActivity 422c99f8 pid=5938
+    Local FragmentActivity 4238a850 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4238be68
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@4238be68
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{423520c8 V.E..... ... 0,0-1024,552}
+        android.widget.LinearLayout{423d6710 V.E..... ... 0,0-1024,552}
+          android.view.ViewStub{423ce958 G.E..... ... 0,0-0,0 #10203e4}
+          android.widget.FrameLayout{423db8a0 V.E..... ... 0,25-1024,552}
+            android.support.v7.widget.ActionBarOverlayLayout{42351610 V.E..... ... 0,0-1024,527 #7f0e0089 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{4237c8d0 V.E..... ... 0,0-1024,527 #1020002 android:id/content}
+                android.widget.RelativeLayout{423be7f8 V.E..... ... 0,0-1024,527 #7f0e00c6 app:id/db1_root}
+                  android.widget.ScrollView{420a6370 VFED.V.. ... 0,0-1024,527}
+                    android.widget.LinearLayout{423b4270 V.E..... ... 0,0-1024,1246}
+                      android.widget.LinearLayout{423dc4f0 V.E..... ... 0,0-1024,45 #7f0e000f app:id/title_container}
+                        android.support.v7.widget.AppCompatImageView{423dc948 V.ED..C. ... 0,0-155,45 #7f0e0010 app:id/title_logo}
+                        android.support.v7.widget.AppCompatImageView{4239f6f0 V.ED.... ... 155,0-156,45}
+                        android.support.v7.widget.AppCompatTextView{4239f9c0 V.ED.... ... 156,0-934,45 #7f0e0011 app:id/title_text}
+                        android.support.v7.widget.AppCompatImageButton{423a6700 VFED..C. ... 934,0-979,45}
+                        android.support.v7.widget.AppCompatImageButton{423f9678 VFED..C. ... 979,0-1024,45}
+                      android.widget.LinearLayout{42406db8 V.E..... ... 0,45-1024,1070}
+                        android.widget.LinearLayout{424152a0 V.E..... ... 0,0-512,1025}
+                          android.support.v7.widget.AppCompatImageView{424155c8 V.ED..C. ... 109,0-409,205 #7f0e00c7 app:id/home_btn_feature1}
+                          android.support.v7.widget.AppCompatImageView{423b24e8 V.ED..C. ... 109,205-409,410 #7f0e00c8 app:id/home_btn_feature4}
+                          android.support.v7.widget.AppCompatImageView{423b28c0 V.ED..C. ... 109,410-409,615 #7f0e00c9 app:id/home_btn_feature5}
+                          android.support.v7.widget.AppCompatImageView{423b2d40 V.ED..C. ... 109,615-409,820 #7f0e00ca app:id/home_btn_feature7}
+                          android.support.v7.widget.AppCompatImageView{423b3118 V.ED..C. ... 109,820-409,1025 #7f0e00cb app:id/home_btn_feature9}
+                        android.widget.LinearLayout{423b3598 V.E..... ... 512,0-1024,1025}
+                          android.support.v7.widget.AppCompatImageView{423b38c0 V.ED..C. ... 109,0-409,205 #7f0e00cc app:id/home_btn_feature2}
+                          android.support.v7.widget.AppCompatImageView{423b0818 V.ED..C. ... 109,205-409,410 #7f0e00cd app:id/home_btn_feature3}
+                          android.support.v7.widget.AppCompatImageView{423b0b78 V.ED..C. ... 109,410-409,615 #7f0e00ce app:id/home_btn_feature6}
+                          android.support.v7.widget.AppCompatImageView{423b1090 V.ED..C. ... 109,615-409,820 #7f0e00cf app:id/home_btn_feature8}
+                          android.support.v7.widget.AppCompatImageView{423b13c8 V.ED..C. ... 109,820-409,1025 #7f0e00d0 app:id/home_btn_feature0}
+                      com.sa90.materialarcmenu.ArcMenu{423b87d8 V.E..... ... 868,1070-1008,1222}
+                        android.support.design.widget.FloatingActionButton{42368b78 GFED..C. ... 0,0-0,0 #7f0e00d1 app:id/fab1}
+                        android.support.design.widget.FloatingActionButton{4233dbe8 GFED..C. ... 0,0-0,0}
+                        android.support.design.widget.FloatingActionButton{423fc228 GFED..C. ... 0,0-0,0}
+                        android.support.design.widget.FloatingActionButton{4236e180 GFED.... ... 0,0-0,0}
+                        android.support.design.widget.FloatingActionButton{423874f0 GFED.... ... 0,0-0,0}
+                        android.support.design.widget.FloatingActionButton{423b9130 VFED..C. ... 0,0-80,92}
+                  android.widget.LinearLayout{423fcf58 V.E..... ... 0,508-1024,527}
+                    android.support.v7.widget.AppCompatTextView{423fd2e8 VFED..CL ... 0,0-1024,19 #7f0e00d2 app:id/tvfootnote}
+              android.support.v7.widget.ActionBarContainer{423f3f28 G.ED.... ... 0,0-0,0 #7f0e008a app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{423bded8 V.E..... ... 0,0-0,0 #7f0e008b app:id/action_bar}
+                  android.widget.TextView{420ead78 V.ED.... ... 0,0-0,0}
+                  android.support.v7.widget.ActionMenuView{423c9020 V.E..... ... 0,0-0,0}
+                android.support.v7.widget.ActionBarContextView{423c17b0 G.E..... ... 0,0-0,0 #7f0e008c app:id/action_context_bar}

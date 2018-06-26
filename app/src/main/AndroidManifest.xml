@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nanosoft.bd.saveme"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <!-- awreness api -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- awreness api -->
+    <!-- startup -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- startup -->
+    <!-- Locaton permission -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- READ CONTACTS -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- rss feed -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/saveme_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.D1">
+        <meta-data
+            android:name="com.google.android.awareness.API_KEY"
+            android:value="@string/api_key" />
+
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.PhoneBookDetailActivity"
+            android:label="@string/title_feature2"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name=".activity.EmergencyTextActivity"
+            android:label="@string/title_feature3"
+            android:theme="@style/Theme.D1" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAdJqB80p1v372AShq5HxQ6sq9z8iY12A8" />
+
+
+        <activity
+            android:name=".activity.PositionTrackerActivity"
+            android:label="@string/title_feature6"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_about"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name=".activity.EmergencyCallActivity"
+            android:label="@string/title_feature1"
+            android:theme="@style/Theme.D1" />
+
+        <service android:name=".service.CallingService" />
+
+
+        <receiver
+            android:name=".broadcastreceiver.PushNotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".broadcastreceiver.SmsReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.EmergencyTextService" />
+        <service
+            android:name=".service.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.BackService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.SMSTrackersActivity"
+            android:label="@string/title_feature7"
+            android:theme="@style/Theme.D1" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.FnFTrackingActivity"
+            android:label="@string/title_feature8"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name=".activity.LocationNotifierActivity"
+            android:label="@string/title_feature9"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name=".activity.AppPurchaseActivity"
+            android:label="@string/title_feature10"
+            android:theme="@style/Theme.D1" />
+
+        <receiver
+            android:name=".broadcastreceiver.ActivityRunOnStartup"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.WelcomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PhoneBookActivity"
+            android:label="@string/title_activity_phone_book"
+            android:theme="@style/Theme.D1.NoActionBar" />
+        <activity
+            android:name=".activity.MapDirectionActivity"
+            android:label="@string/title_activity_map_view"
+            android:theme="@style/Theme.D1.NoActionBar" />
+        <activity
+            android:name=".activity.NewsFeedViewActivity"
+            android:label="@string/title_activity_news_feed_view"
+            android:theme="@style/Theme.D1.NoActionBar"></activity>
+    </application>
+
+</manifest>

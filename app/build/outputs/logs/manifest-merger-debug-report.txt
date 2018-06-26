@@ -1,0 +1,443 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+MERGED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\76f30b3593fd4aab26d14a248fd851f3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-contextmanager-9.2.0.aar\28e4191f432ecfb278ce232eeb412a2d\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-9.2.0.aar\08fe5bb39c505a4348c88a0146017fb8\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-location-9.2.0.aar\49564d4b273c481e63334b88e9d5a80d\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-places-9.2.0.aar\58e94d11dc172abc90d556fdffa470dc\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.2.0.aar\90143ad90c655c9a0fbbb86c5986280d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.chenupt.android:multiplemodel:1.1.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multiplemodel-1.1.0.aar\994be1ba5a734a52433571db8cfc06b0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\a3f44a7383b4b38572de4cefc49baba2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\ea0dd6856873f11a73b1b0dc06771b73\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\c83f1974116987047ab682f19ba29aa4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\7a4046a01ac091878b00fd967f56257b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\1e8cad8692883774714b8c0b45a9fb35\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:1-163:12
+	package
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:8:5-69
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:8:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:11:5-70
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:11:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:14:22-70
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:16:22-91
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:17:22-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:27:22-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:28:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:28:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:32:5-75
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:32:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:33:22-77
+application
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:35:5-161:19
+MERGED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\76f30b3593fd4aab26d14a248fd851f3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\76f30b3593fd4aab26d14a248fd851f3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-contextmanager-9.2.0.aar\28e4191f432ecfb278ce232eeb412a2d\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-contextmanager-9.2.0.aar\28e4191f432ecfb278ce232eeb412a2d\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-9.2.0.aar\08fe5bb39c505a4348c88a0146017fb8\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-9.2.0.aar\08fe5bb39c505a4348c88a0146017fb8\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-location-9.2.0.aar\49564d4b273c481e63334b88e9d5a80d\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-location-9.2.0.aar\49564d4b273c481e63334b88e9d5a80d\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-places-9.2.0.aar\58e94d11dc172abc90d556fdffa470dc\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-places-9.2.0.aar\58e94d11dc172abc90d556fdffa470dc\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.2.0.aar\90143ad90c655c9a0fbbb86c5986280d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.2.0.aar\90143ad90c655c9a0fbbb86c5986280d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.chenupt.android:multiplemodel:1.1.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multiplemodel-1.1.0.aar\994be1ba5a734a52433571db8cfc06b0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.chenupt.android:multiplemodel:1.1.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multiplemodel-1.1.0.aar\994be1ba5a734a52433571db8cfc06b0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\ea0dd6856873f11a73b1b0dc06771b73\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\ea0dd6856873f11a73b1b0dc06771b73\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\c83f1974116987047ab682f19ba29aa4\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\c83f1974116987047ab682f19ba29aa4\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\1e8cad8692883774714b8c0b45a9fb35\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\1e8cad8692883774714b8c0b45a9fb35\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:37:9-41
+	android:allowBackup
+		ADDED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:36:9-45
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:38:9-40
+meta-data#com.google.android.awareness.API_KEY
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:39:9-41:47
+	android:value
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:40:13-64
+activity#com.nanosoft.bd.saveme.activity.HomeActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:43:9-45:48
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:44:13-50
+activity#com.nanosoft.bd.saveme.activity.PhoneBookDetailActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:46:9-49:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:48:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:47:13-61
+activity#com.nanosoft.bd.saveme.activity.EmergencyTextActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:50:9-53:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:52:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:51:13-59
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:55:9-57:71
+	android:value
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:57:13-68
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:56:13-58
+activity#com.nanosoft.bd.saveme.activity.PositionTrackerActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:60:9-63:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:62:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:61:13-61
+activity#com.nanosoft.bd.saveme.activity.AboutActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:64:9-67:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:66:13-48
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:65:13-51
+activity#com.nanosoft.bd.saveme.activity.EmergencyCallActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:68:9-71:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:70:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:69:13-59
+service#com.nanosoft.bd.saveme.service.CallingService
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:73:9-59
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:73:18-56
+receiver#com.nanosoft.bd.saveme.broadcastreceiver.PushNotificationReceiver
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:76:9-84:20
+	android:enabled
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:78:13-35
+	android:exported
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:79:13-36
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:77:13-71
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:80:13-83:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:81:17-79
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:81:25-76
+receiver#com.nanosoft.bd.saveme.broadcastreceiver.SmsReceiver
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:86:9-93:20
+	android:enabled
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:88:13-35
+	android:exported
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:89:13-36
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:87:13-58
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:90:13-92:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:91:17-82
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:91:25-79
+service#com.nanosoft.bd.saveme.service.EmergencyTextService
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:95:9-65
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:95:18-62
+service#com.nanosoft.bd.saveme.service.LocationService
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:96:9-99:39
+	android:enabled
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:98:13-35
+	android:exported
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:99:13-36
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:97:13-52
+service#com.nanosoft.bd.saveme.service.BackService
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:100:9-102:40
+	android:exported
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:101:13-48
+activity#com.nanosoft.bd.saveme.activity.SMSTrackersActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:104:9-107:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:106:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:105:13-57
+meta-data#com.google.android.gms.version
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:112:9-114:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:114:13-66
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:113:13-58
+activity#com.nanosoft.bd.saveme.activity.FnFTrackingActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:116:9-119:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:118:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:119:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:117:13-57
+activity#com.nanosoft.bd.saveme.activity.LocationNotifierActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:120:9-123:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:122:13-51
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:123:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:121:13-62
+activity#com.nanosoft.bd.saveme.activity.AppPurchaseActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:124:9-127:47
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:126:13-52
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:127:13-44
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:125:13-57
+receiver#com.nanosoft.bd.saveme.broadcastreceiver.ActivityRunOnStartup
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:129:9-140:20
+	android:enabled
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:131:13-35
+	android:exported
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:132:13-36
+	android:permission
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:133:13-75
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:130:13-67
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.DEFAULT
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:134:13-139:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:135:17-79
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:135:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:136:17-82
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:136:25-79
+category#android.intent.category.DEFAULT
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:138:17-76
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:138:27-73
+activity#com.nanosoft.bd.saveme.activity.WelcomeScreenActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:142:9-148:20
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:142:19-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:143:13-147:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:144:17-69
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:144:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:146:17-77
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:146:27-74
+activity#com.nanosoft.bd.saveme.activity.PhoneBookActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:149:9-152:59
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:151:13-62
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:152:13-56
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:150:13-55
+activity#com.nanosoft.bd.saveme.activity.MapDirectionActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:153:9-156:59
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:155:13-60
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:154:13-58
+activity#com.nanosoft.bd.saveme.activity.NewsFeedViewActivity
+ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:157:9-160:68
+	android:label
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:159:13-66
+	android:theme
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:160:13-56
+	android:name
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml:158:13-58
+uses-sdk
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+MERGED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sa90.materialarcmenu:library:1.4.1] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\library-1.4.1.aar\fc4927b53ffd7a7710bfba87b7b36bb5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\76f30b3593fd4aab26d14a248fd851f3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\76f30b3593fd4aab26d14a248fd851f3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-contextmanager-9.2.0.aar\28e4191f432ecfb278ce232eeb412a2d\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-contextmanager-9.2.0.aar\28e4191f432ecfb278ce232eeb412a2d\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-9.2.0.aar\08fe5bb39c505a4348c88a0146017fb8\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-9.2.0.aar\08fe5bb39c505a4348c88a0146017fb8\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-location-9.2.0.aar\49564d4b273c481e63334b88e9d5a80d\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-location-9.2.0.aar\49564d4b273c481e63334b88e9d5a80d\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-places-9.2.0.aar\58e94d11dc172abc90d556fdffa470dc\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-places-9.2.0.aar\58e94d11dc172abc90d556fdffa470dc\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.2.0.aar\90143ad90c655c9a0fbbb86c5986280d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.2.0.aar\90143ad90c655c9a0fbbb86c5986280d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.2.0.aar\a1e0e525465e60bd999564c75e24fae8\AndroidManifest.xml:18:5-42
+MERGED from [com.github.chenupt.android:multiplemodel:1.1.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multiplemodel-1.1.0.aar\994be1ba5a734a52433571db8cfc06b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chenupt.android:multiplemodel:1.1.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multiplemodel-1.1.0.aar\994be1ba5a734a52433571db8cfc06b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\a3f44a7383b4b38572de4cefc49baba2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\a3f44a7383b4b38572de4cefc49baba2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\ea0dd6856873f11a73b1b0dc06771b73\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\ea0dd6856873f11a73b1b0dc06771b73\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\c83f1974116987047ab682f19ba29aa4\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\c83f1974116987047ab682f19ba29aa4\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\7a4046a01ac091878b00fd967f56257b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\7a4046a01ac091878b00fd967f56257b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\1e8cad8692883774714b8c0b45a9fb35\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\1e8cad8692883774714b8c0b45a9fb35\AndroidManifest.xml:20:5-43
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\58ffbb497f5296f865f124a8b3717117\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidFinal\NANOSOFT_ANDROID_DOCUMENT\saveMe034_copy - Copy\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:20:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.2.0.aar\8c9f602fa97a7293127e97b5227686ae\AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\play-services-base-9.2.0.aar\a7d28838c2a463ff2afc69d75b3c3e48\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Azhar\.gradle\caches\transforms-1\files-1.1\firebase-common-9.2.0.aar\e39f6c7a6e21eb755280c18d7e82d3f3\AndroidManifest.xml:9:13-58

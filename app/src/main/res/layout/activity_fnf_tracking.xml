@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fnfTrackingLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/TitleBar"
+        android:background="#05bcc6"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+
+        <TextView style="@style/TitleBarText" />
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_search"
+            android:visibility="gone"
+            android:src="@drawable/title_search"
+            android:onClick="onClickSearch" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            >
+
+
+
+            <EditText
+                android:padding="5dp"
+                android:id="@+id/etFnFNumber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="phone"
+                android:hint="Write Fnf Number"
+                android:layout_weight="1.5"
+                android:textColorHint="#aaaaaa"
+                android:textStyle="bold"
+                android:background="@drawable/spinner_border2"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnAddFnF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add"
+                android:onClick="addFnFbtn"
+                android:textAllCaps="false"
+                />
+
+
+            <!-- <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="54dp"
+                 android:layout_height="match_parent"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:maxLines="4"
+                 android:hint="sms.."
+                 android:gravity="center"
+                 android:layout_weight="0.05" />-->
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Spinner
+            android:id="@+id/fnfPersonsp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/spinner_border2"
+            ></Spinner>
+
+        <Button
+            android:id="@+id/btnDeleteFnF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Remove"
+            android:textAllCaps="false"
+            android:onClick="btnDeleteFnF"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

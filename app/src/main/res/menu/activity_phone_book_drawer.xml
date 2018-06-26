@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/contactListItem"
+            android:icon="@drawable/contact_list_icon"
+            android:title="Contact List" />
+        <item
+            android:id="@+id/searchItem"
+            android:icon="@drawable/search_people_icon"
+            android:title="Search" />
+
+        <item
+            android:id="@+id/inviteItem"
+            android:icon="@drawable/contact_invite_icon"
+            android:title="Invite" />
+
+
+
+    </group>
+
+    <item android:title="Backup And Restore">
+        <menu>
+
+            <item
+                android:id="@+id/backupItem"
+                android:icon="@drawable/contact_upload_icon"
+                android:title="Backup to Server" />
+            <item
+                android:id="@+id/restoreItem"
+                android:icon="@drawable/contact_download_icon"
+                android:visible="false"
+                android:title="Restore from Server" />
+
+        </menu>
+    </item>
+
+</menu>

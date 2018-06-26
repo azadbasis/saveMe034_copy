@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/smsTrackerLayout"
+    tools:context="com.nanosoft.bd.saveme.activity.SMSTrackersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:id="@+id/smsTitleLo"
+            style="@style/TitleBar"
+            android:background="#05bcc6"
+            android:layout_height="?attr/actionBarSize"
+            >
+
+            <ImageButton
+                style="@style/TitleBarAction"
+                android:contentDescription="@string/description_home"
+                android:onClick="onClickHome"
+                android:src="@drawable/title_home" />
+
+            <ImageView style="@style/TitleBarSeparator" />
+
+            <TextView style="@style/TitleBarText" />
+
+            <ImageButton
+                style="@style/TitleBarAction"
+                android:contentDescription="@string/description_about"
+                android:onClick="onClickAbout"
+                android:src="@drawable/title_about" />
+
+            <ImageButton
+                style="@style/TitleBarAction"
+                android:contentDescription="@string/description_search"
+                android:onClick="onClickSearch"
+                android:src="@drawable/title_search"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/randomlayoutid"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/smsTitleLo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etfirstPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+
+                        android:autoLink="phone"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etsecondPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etthirdPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etfourthPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etfifthPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etsixthPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etseventhPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/eteighthPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/etninethPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/spinner_border2"
+                    android:padding="3dp">
+
+                    <EditText
+                        android:id="@+id/ettenthPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/locationtrack"
+                        android:gravity="center"
+                        android:inputType="phone" />
+
+                    <Button
+                        android:id="@+id/btnsendcode10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/codetext"
+                        android:onClick="onClickSms"
+                        android:text="sms"
+                        android:textAllCaps="false" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/randomlayoutid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#14637b"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="random number"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="btnGenerateClick"
+                android:text="Generate code"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

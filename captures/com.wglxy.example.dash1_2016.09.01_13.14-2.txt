@@ -1,0 +1,63 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.appinvite.ACTION_PREVIEW:
+        42eb28f0 com.wglxy.example.dash1/com.google.android.gms.appinvite.PreviewActivity filter 42eb2918
+      android.intent.action.MAIN:
+        431db2a0 com.wglxy.example.dash1/.HomeActivity filter 425fcf50
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.provider.Telephony.SMS_RECEIVED:
+        42fff3f8 com.wglxy.example.dash1/.emergency.SmsReceiver filter 430ec938
+      com.google.android.gms.measurement.UPLOAD:
+        437a3300 com.wglxy.example.dash1/com.google.android.gms.measurement.AppMeasurementReceiver filter 42f44430
+ 
+Registered ContentProviders:
+  com.wglxy.example.dash1/com.google.android.gms.measurement.AppMeasurementContentProvider:
+    Provider{42b96438 com.google.android.gms.measurement.AppMeasurementContentProvider}
+ 
+ContentProvider Authorities:
+  [com.wglxy.example.dash1.google_measurement_service]:
+    Provider{42b96438 com.google.android.gms.measurement.AppMeasurementContentProvider}
+      applicationInfo=ApplicationInfo{42ecb430 com.wglxy.example.dash1}
+ 
+Packages:
+  Package [com.wglxy.example.dash1] (42db6800):
+    userId=10141 gids=[3003, 1015, 1023, 1028]
+    sharedUser=null
+    pkg=Package{427d3940 com.wglxy.example.dash1}
+    codePath=/data/app/com.wglxy.example.dash1-2.apk
+    resourcePath=/data/app/com.wglxy.example.dash1-2.apk
+    nativeLibraryPath=/data/data/com.wglxy.example.dash1/lib
+    versionCode=1
+    applicationInfo=ApplicationInfo{42ecb430 com.wglxy.example.dash1}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    versionName=1.0
+    dataDir=/data/data/com.wglxy.example.dash1
+    targetSdk=23
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-09-01 13:06:09
+    firstInstallTime=2016-09-01 12:20:43
+    lastUpdateTime=2016-09-01 13:06:10
+    signatures=PackageSignatures{430a7c38 [430757b8]}
+    permissionsFixed=true haveGids=true
+    pkgFlags=0x0 installStatus=1 User 0:  stopped=false enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.SEND_SMS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.RECEIVE_SMS
+      android.permission.READ_CONTACTS
+      android.permission.CALL_PHONE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_SMS
+      android.permission.INTERNET
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+ 
+mEnforceCopyingLibPackages:
+mEnforceCopyingLibPackages  [0]: com.diotek.ime.diopencn.dx.b2b
+End!!!!
